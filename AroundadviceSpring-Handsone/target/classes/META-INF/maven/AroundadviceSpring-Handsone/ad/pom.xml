@@ -4,25 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <groupId>demo</groupId>
-  <artifactId>demo</artifactId>
+  <groupId>AroundadviceSpring-Handsone</groupId>
+  <artifactId>ad</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>demo</name>
-=======
-=======
->>>>>>> a0b948253aa9385f919717fff7ff457d134e2b52
-  <groupId>com.org</groupId>
-  <artifactId>maven-archetype-quickstart</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-
-  <name>maven-archetype-quickstart</name>
-<<<<<<< HEAD
->>>>>>> 6a6685b8d718e3511a59935290c81e1c1e443291
-=======
->>>>>>> a0b948253aa9385f919717fff7ff457d134e2b52
+  <name>ad</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -33,64 +19,49 @@
   </properties>
 
   <dependencies>
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <dependency>
-   <groupId>org.hibernate</groupId>
-   <artifactId>hibernate-core</artifactId>
-    <version>5.6.5.Final</version>
-  </dependency>
+  <!-- https://mvnrepository.com/artifact/org.springframework/spring-aspects -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-aspects</artifactId>
+    <version>5.1.3.RELEASE</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+<dependency>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjweaver</artifactId>
+    <version>1.9.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>5.3.14</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>5.3.14</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjrt -->
+<dependency>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjrt</artifactId>
+    <version>1.5.4</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-aop</artifactId>
+    <version>5.3.8</version>
+</dependency>
 
-=======
-=======
->>>>>>> a0b948253aa9385f919717fff7ff457d134e2b52
-      <dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>4.3.5.Final</version>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.6</version>
-		</dependency>
-<<<<<<< HEAD
->>>>>>> 6a6685b8d718e3511a59935290c81e1c1e443291
-=======
->>>>>>> a0b948253aa9385f919717fff7ff457d134e2b52
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <dependency>
-   <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.23</version>
-   </dependency>
-  <dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.23</version>
-  </dependency>
-  <dependency>
-    <groupId>org.hibernate.orm</groupId>
-    <artifactId>hibernate-core</artifactId>
-    <version>6.0.0.Alpha7</version>
- </dependency>
-=======
->>>>>>> 6a6685b8d718e3511a59935290c81e1c1e443291
-=======
->>>>>>> a0b948253aa9385f919717fff7ff457d134e2b52
   </dependencies>
 
   <build>
