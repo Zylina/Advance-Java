@@ -1,0 +1,26 @@
+eclipse.preferences.version=1
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6a6685b8d718e3511a59935290c81e1c1e443291
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.7
+org.eclipse.jdt.core.compiler.compliance=1.7
+org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures=disabled
+org.eclipse.jdt.core.compiler.problem.forbiddenReference=warning
+org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures=ignore
+org.eclipse.jdt.core.compiler.release=disabled
+org.eclipse.jdt.core.compiler.source=1.7
+<<<<<<< HEAD
+=======
+=======
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=17
+org.eclipse.jdt.core.compiler.compliance=17
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures=disabled
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures=warning
+org.eclipse.jdt.core.compiler.release=enabled
+org.eclipse.jdt.core.compiler.source=17
+>>>>>>> e5c6dd0e764d72b59704d30633b4077654cde4c3
+>>>>>>> 6a6685b8d718e3511a59935290c81e1c1e443291
