@@ -1,80 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.4</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>SpringBootRestApi-Assignment</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringBootRestApi-Assignment</name>
-	<description>Demo project for Spring Boot</description>
-	<properties>
-		<java.version>1.8</java.version>
-	</properties>
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
-
-</project>
-=======
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   <groupId>demo</groupId>
   <artifactId>demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>demo</name>
-=======
-=======
->>>>>>> a0b948253aa9385f919717fff7ff457d134e2b52
-  <groupId>com.org</groupId>
-  <artifactId>maven-archetype-quickstart</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-
-  <name>maven-archetype-quickstart</name>
-<<<<<<< HEAD
->>>>>>> 6a6685b8d718e3511a59935290c81e1c1e443291
-=======
->>>>>>> a0b948253aa9385f919717fff7ff457d134e2b52
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -85,45 +19,18 @@
   </properties>
 
   <dependencies>
-<<<<<<< HEAD
-<<<<<<< HEAD
   <dependency>
    <groupId>org.hibernate</groupId>
    <artifactId>hibernate-core</artifactId>
     <version>5.6.5.Final</version>
   </dependency>
 
-=======
-=======
->>>>>>> a0b948253aa9385f919717fff7ff457d134e2b52
-      <dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>4.3.5.Final</version>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.6</version>
-		</dependency>
-<<<<<<< HEAD
->>>>>>> 6a6685b8d718e3511a59935290c81e1c1e443291
-=======
->>>>>>> a0b948253aa9385f919717fff7ff457d134e2b52
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <dependency>
    <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
@@ -139,10 +46,6 @@
     <artifactId>hibernate-core</artifactId>
     <version>6.0.0.Alpha7</version>
  </dependency>
-=======
->>>>>>> 6a6685b8d718e3511a59935290c81e1c1e443291
-=======
->>>>>>> a0b948253aa9385f919717fff7ff457d134e2b52
   </dependencies>
 
   <build>
@@ -191,4 +94,3 @@
     </pluginManagement>
   </build>
 </project>
->>>>>>> 3ee64c8c842cff74c46bb9f563f3050cf63fcb7c

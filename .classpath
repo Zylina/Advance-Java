@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6a6685b8d718e3511a59935290c81e1c1e443291
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+<<<<<<< HEAD
+=======
+=======
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0 ">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/gupta/Downloads/jar_files/mysql-connector-java-8.0.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gupta/Downloads/jar_files (1)/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gupta/Downloads/javax.servlet-api-3.0.1.jar/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gupta/Downloads/HansOnMVCProject/HansOnMVCProject/src/main/webapp/WEB-INF/lib/common-lang3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gupta/Downloads/HansOnMVCProject/HansOnMVCProject/src/main/webapp/WEB-INF/lib/jsp-api-2.2.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+>>>>>>> e5c6dd0e764d72b59704d30633b4077654cde4c3
+>>>>>>> 6a6685b8d718e3511a59935290c81e1c1e443291
+</classpath>
