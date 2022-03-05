@@ -24,6 +24,33 @@
       <artifactId>spring-jdbc</artifactId>
       <version>4.0.5.RELEASE</version>
     </dependency>
+     <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>3.0.1.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>3.0.1.RELEASE</version>
+        </dependency>
+         <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.9.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>3.0.4.RELEASE</version>
+        </dependency>
+        
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
@@ -80,6 +107,32 @@
           <artifactId>maven-site-plugin</artifactId>
           <version>3.7.1</version>
         </plugin>
+        <profiles>
+        <profile>
+            <id>SPRINGLEARN</id>
+            <activation>
+                <jdk>1.8</jdk>
+            </activation>
+            <repositories>
+                <repository>
+                    <id>thirdPartyRepo</id>
+                    <name>Third party repository</name>
+                    <url>https://repo.spring.io/libs-release/</url>
+                    <layout>default</layout>
+                    <snapshotPolicy>always</snapshotPolicy>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>thirdPartyPluginRepo</id>
+                    <name>Third party plugin repository</name>
+                    <url>https://repo.spring.io/libs-release/</url>
+                    <layout>default</layout>
+                    <snapshotPolicy>always</snapshotPolicy>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+    </profiles>
         <plugin>
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>

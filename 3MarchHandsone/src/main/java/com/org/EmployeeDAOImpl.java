@@ -13,7 +13,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
   }
 
   public String getEmployeeName(int id) {
-    String sql = "select name from employee where id = ?";
+    String sql = "select name from emp where id = ?";
     String name = jdbcTemplate.queryForObject(sql,new Object[]{id},String.class);
     return name;
   }

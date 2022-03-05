@@ -1,10 +1,7 @@
 package com.org;
 
-/**
- * Hello world!
- *
- */
 import java.sql.SQLException;
+
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
